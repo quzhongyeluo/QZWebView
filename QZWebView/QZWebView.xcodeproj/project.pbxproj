@@ -15,6 +15,8 @@
 		FCEFDF141F1687CA0013A007 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEFDF121F1687CA0013A007 /* LaunchScreen.storyboard */; };
 		FCEFDF1F1F1687CA0013A007 /* QZWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEFDF1E1F1687CA0013A007 /* QZWebViewTests.m */; };
 		FCEFDF2A1F1687CA0013A007 /* QZWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEFDF291F1687CA0013A007 /* QZWebViewUITests.m */; };
+		FCEFDF391F16887B0013A007 /* QZWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEFDF381F16887B0013A007 /* QZWebView.m */; };
+		FCEFDF3C1F168E850013A007 /* QZWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEFDF3B1F168E850013A007 /* QZWebViewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		FCEFDF251F1687CA0013A007 /* QZWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QZWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEFDF291F1687CA0013A007 /* QZWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QZWebViewUITests.m; sourceTree = "<group>"; };
 		FCEFDF2B1F1687CA0013A007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCEFDF371F16887B0013A007 /* QZWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZWebView.h; sourceTree = "<group>"; };
+		FCEFDF381F16887B0013A007 /* QZWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZWebView.m; sourceTree = "<group>"; };
+		FCEFDF3A1F168E850013A007 /* QZWebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZWebViewViewController.h; sourceTree = "<group>"; };
+		FCEFDF3B1F168E850013A007 /* QZWebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZWebViewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				FCEFDF121F1687CA0013A007 /* LaunchScreen.storyboard */,
 				FCEFDF151F1687CA0013A007 /* Info.plist */,
 				FCEFDF041F1687CA0013A007 /* Supporting Files */,
+				FCEFDF371F16887B0013A007 /* QZWebView.h */,
+				FCEFDF381F16887B0013A007 /* QZWebView.m */,
+				FCEFDF3A1F168E850013A007 /* QZWebViewViewController.h */,
+				FCEFDF3B1F168E850013A007 /* QZWebViewViewController.m */,
 			);
 			path = QZWebView;
 			sourceTree = "<group>";
@@ -278,6 +288,8 @@
 			files = (
 				FCEFDF0C1F1687CA0013A007 /* ViewController.m in Sources */,
 				FCEFDF091F1687CA0013A007 /* AppDelegate.m in Sources */,
+				FCEFDF391F16887B0013A007 /* QZWebView.m in Sources */,
+				FCEFDF3C1F168E850013A007 /* QZWebViewViewController.m in Sources */,
 				FCEFDF061F1687CA0013A007 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

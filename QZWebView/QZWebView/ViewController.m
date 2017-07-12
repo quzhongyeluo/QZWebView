@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "QZWebViewViewController.h"
 
 @interface ViewController ()
 
@@ -19,6 +20,12 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)pushAction:(UIButton *)sender {
+    
+    QZWebViewViewController *vc = [[QZWebViewViewController alloc] initWithURL:@"https://www.baidu.com"];
+    [self.navigationController pushViewController:vc animated:true];
+
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
