@@ -41,7 +41,7 @@ QZWebView.h
 - (void)didFinish;
 
 /**
- 加载完成
+ 加载失败
  */
 - (void)didFailProvisional;
 
