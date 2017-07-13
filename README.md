@@ -363,6 +363,11 @@ typedef enum{
     if ([self.deleget respondsToSelector:@selector(didFinish)]) {
         [self.deleget didFinish];
     }
+    // 获取title
+    if ([self.deleget respondsToSelector:@selector(webViewTitle:)]) {
+        NSString *title = [webView stringByEvaluatingJavaScriptFromString:@"document.title"];
+        [self.deleget webViewTitle:title];
+    }
 
 }
 
