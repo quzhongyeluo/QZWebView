@@ -10,8 +10,21 @@
 
 @interface QZWebViewViewController : UIViewController
 
+/**
+ 通过网页链接初始化
+
+ @param url 链接
+ @return return value description
+ */
 - (instancetype)initWithURL:(NSString *)url;
 
+
+/**
+ 通过本地文件初始化
+
+ @param filePath 本地文件位置
+ @return return value description
+ */
 - (instancetype)initWithFilePath:(NSString *)filePath;
 
 @end
