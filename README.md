@@ -653,5 +653,8 @@ QZWebViewViewController.m
 QZWebViewViewController *vc = [[QZWebViewViewController alloc] initWithURL:@"https://www.baidu.com"];
     [self.navigationController pushViewController:vc animated:true];
 ```
+
+本地初始化就不写例子了，涉及到公司的项目的信息
+
 如果iOS 9及以上系统访问失败，请检查是否开启了http访问的权限。
 
