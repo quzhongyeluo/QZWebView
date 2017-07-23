@@ -16,7 +16,7 @@ iOS 8及以上系统使用WKWebView（好处不说了，坑也不说了，网上
 QZWebView *webView = [[QZWebView alloc] initWithFrame:self.view.bounds url:yoururl];
 [self.view addSubview:webView];
 ```
-后者
+或者
 ```
 QZWebView *webView = [[QZWebView alloc] initWithFrame:self.view.bounds filePath:self.filePath];
 [self.view addSubview:webView];
