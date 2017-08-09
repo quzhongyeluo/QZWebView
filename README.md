@@ -1,11 +1,9 @@
 # QZWebView
 ## WebView的简单封装 - 适用于原生App与h5交互
 
-现在的新项目基本上都是最低适配iOS 8了，毕竟现在中国的社交巨无霸QQ和微信都是最低适配iOS 8，除非...老板特别要求的要适配iOS 7...无奈.，兼容iOS 7真的要花很多时间。最近在重构项目，现在简单说一下WebView的封装！适用于原生App与h5交互
-
 iOS 7使用UIWebView
 
-iOS 8及以上系统使用WKWebView（好处不说了，坑也不说了，网上一大把）
+iOS 8及以上系统使用WKWebView
 
 使用方法：
 导入QZWebView.m QZWebView.h
